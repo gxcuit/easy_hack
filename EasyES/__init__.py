@@ -1,0 +1,7 @@
+__title__ = 'EasyES'
+__version__ = '0.1'
+__author__ = 'gxcuit'
+__author_email__ = 'gxcuit@163.com'
+__url__ = 'https://github.com/gxcuit/easy_hack'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2019'
