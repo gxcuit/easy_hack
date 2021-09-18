@@ -1,5 +1,6 @@
 
 import  HackRequest
+import multiprocessing
 
 
 def test():
@@ -45,6 +46,9 @@ def brute_force(ip,password_list):
 
     pass
 
+
+
 if __name__ == '__main__':
+    pass
     #test()
-    brute_force('120.55.38.201:9002','')
+    #brute_force('120.55.38.201:9002','')

@@ -67,5 +67,5 @@ if __name__ == '__main__':
                     "sort": {"features.banner_length": {"order": "desc"}}, "aggs": {}}
     es = EasyES('192.168.19.14','./result/global_1883.json')
     #ip = es.search_by_sql(sql_jetlinks, 'banner_global_1883_2021-07-05')
-    ip=es.query_multi_thread(sql_jetlinks, 'banner_global_1883_2021-07-05')
+    ip=es.query_multi_thread(sql_jetlinks, 'banner_global_1883_2021-07-30')
     pass
